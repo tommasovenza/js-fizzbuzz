@@ -34,15 +34,30 @@
 //  se un numero è divisibile per 3, dando resto zero
 //  scrivi la parola fizz
 
-var numero = 3;
+var numero = 99;
+var numero = 100;
+var numero = 43;
 
 if ( numero % 3 == 0) {
     numero = 'fizz';
     console.log(numero);
-}
-
+    
 // se un numero è divisibile per 5 scrivi buzz
-
+} else if 
+    (numero % 5 == 0) {
+    numero = 'buzz';
+    console.log(numero);
 
 // altrimenti scrivi il numero
+} else {
+    (console.log(numero));
+}
+    
+
+
+
+
+
+
+
 
