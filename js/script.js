@@ -45,7 +45,13 @@ for (i = 0; i < arrayCento.length; i++  ) {
     if (numero % 3 == 0) {
         numero = 'fizz';
     }
+    
+
+    else if (numero % 5 == 0) {
+        numero = 'buzz';
+    }
     console.log(numero);
+
 }
 
 //  se un numero è divisibile per 3, dando resto zero
