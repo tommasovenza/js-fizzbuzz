@@ -46,16 +46,16 @@ for (i = 0; i < arrayCento.length; i++  ) {
     
     var numero = arrayCento[i];
 
-    if (numero % 3 == 0) {
-        numero = 'Fizz';
+    if ((numero % 3 == 0) && (numero % 5 == 0)) {
+        numero = 'FizzBuzz';
     }
     
     else if (numero % 5 == 0) {
         numero = 'Buzz';
     }
 
-    else if ((numero % 3 == 0) && (numero % 5 == 0)) {
-        numero = 'FizzBuzz';
+    else if (numero % 3 == 0) {
+        numero = 'Fizz';
     } 
 
     console.log(numero);
